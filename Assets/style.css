@@ -1,0 +1,23 @@
+* {
+    background: rgb(236, 238, 79);
+}
+
+header {
+    text-align: center;
+    border: 10px solid blue;
+    color: rgb(157, 5, 10);
+}
+
+section {
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+
+section h1 {
+    color: rgb(4, 11, 77);
+}
+
+section ol + li {
+    color: rgb(157, 5, 10);
+}
