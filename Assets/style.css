@@ -18,6 +18,19 @@ section h1 {
     color: rgb(4, 11, 77);
 }
 
-section ol + li {
+ ul li {
     color: rgb(157, 5, 10);
+    border: 1px solid blue;
+    margin: 5px auto;
+    list-style: none;
+    width: 40%;
 }
+
+textarea {
+    margin: 5px auto;
+    height: 20px;
+    width: 60px;
+}
+
+
+
