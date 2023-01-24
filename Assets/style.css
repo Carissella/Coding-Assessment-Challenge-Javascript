@@ -1,5 +1,6 @@
 * {
     background: rgb(236, 238, 79);
+    text-align: center;
 }
 
 header {
@@ -29,8 +30,13 @@ section h1 {
 textarea {
     margin: 5px auto;
     height: 20px;
-    width: 60px;
+    width: 40%;
 }
 
 
+/*h2 {
+    font-weight: bold;
+    color: rgb(4, 11, 77);
+}
+*/
 
