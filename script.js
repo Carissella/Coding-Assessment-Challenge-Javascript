@@ -54,11 +54,11 @@ let questionsSet = [
         incorrect: ["CSS", "SQL", "JavaScript"]
     },
     {
-        question: "What Jquery code gets all elements with the Fish ID?",
-        answers: [""],
-        correct: "",
-        incorrect: [""]
-    },
+        question: "What Jquery code gets all elements with the fish ID?",
+        answers: ["$getAll(#fish)", "$getElementsByClassName(.fish)", "document.createElement(fish)", "document.getElementById(#fish)"],
+        correct: "$getElementsByClassName(.fish)",
+        incorrect: ["$getAll(#fish)",  "document.createElement(fish)", "document.getElementById(#fish)"]
+    }
 
 ];
 
