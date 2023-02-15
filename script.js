@@ -5,6 +5,7 @@ let answer2 = document.querySelector("#answer2");
 let answer3 = document.querySelector("#answer3");
 let answer4 = document.querySelector("#answer4");
 let scoreBoard = document.getElementById("list");
+// let startButton = document.createElement("button");
 
 let secondsLeft = 70;
 
@@ -12,20 +13,20 @@ let questionsSet = [
     {
         question: "Commonly used data do NOT include:",
         answers: ["Blah", "Cheese", "Computer Sounds", "All the above"],
-        correct: "All the above",
+        correct: ["All the above"], 
         incorrect: ["Blah", "Cheese", "Computer Sounds",]
     },
     {
         question: "Arrays in Javascript can be used to store __",
         answers: ["Blah", "String Cheese", "Yogurt", "Strings"],
-        correct: "Strings",
+        correct: ["Strings"],
         incorrect: ["Blah", "String Cheese", "Yogurt",]
     },
 
     {
         question: "The conditions in an if/then statement is enclosed within __",
         answers: ["cake", "shrimp", "food poisoning", "curly brackets"],
-        correct: "curly brackets",
+        correct: ["curly brackets"],
         incorrect: ["cake", "shrimp", "food poisoning",]
     }
 ];
@@ -33,9 +34,15 @@ let questionsSet = [
 let timer = setInterval(function () {
     secondsLeft--
     timerEl.textContent = secondsLeft
-}
-    , 1000)
+}, 1000);
 
+// function startButton(event) {
+//     let startButton = document.createElement(button);
+//     startButton.innerHTML:"Start Button";
+//     if (startButton.addEventListener("click")) {
+//         newQuestion();
+//     }
+// };
 
 let index = 0;
 
