@@ -26,7 +26,7 @@ HTML, CSS, and JavaScript by [Carisse Barr](https://github.com/Carissella).
 
 Image displays homepage of the coding quiz:
 
-
+![Alt text for HomePage](./Assets/ScreenshotJSquizREADME.png "Screenshots of homepage of coding quiz")
 
 ## License
 
