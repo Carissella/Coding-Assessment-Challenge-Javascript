@@ -26,8 +26,7 @@ HTML, CSS, and JavaScript by [Carisse Barr](https://github.com/Carissella).
 
 Image displays homepage of the coding quiz:
 
-This Challenge is graded based on the following criteria: 
-
+![Alt text for HomePage](./Assets/ScreenshotJSquizREADME.png "Screenshots of homepage of coding quiz")
 
 ## License
 
