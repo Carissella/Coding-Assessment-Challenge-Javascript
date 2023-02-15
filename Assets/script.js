@@ -13,7 +13,7 @@ let answerbutton = document.querySelectorAll(".ans");
 let timerEl = document.getElementById("timer")
 let startButton = document.createElement("button");
 let rootEl = document.getElementById("root");
-rootEl.appendChild(startButton);
+// rootEl.appendChild(startButton);
 
 //startButton.addEventListener("click"), function() {
     
@@ -27,50 +27,41 @@ timerEl.textContent = secondsLeft
 let questionsSet = [
     {
         question: "Commonly used data do NOT include:",
-
-        answers: ["Blah", "Cheese", "Computer Sounds", "All the above"],
-        correct: ["All the above"], 
-        incorrect: ["Blah", "Cheese", "Computer Sounds",]
+        answers: ["Decimals", "Food", "Computer Sounds", "All the above"],
+        correct: "All the above",
+        incorrect: ["Decimals", "Food", "Computer Sounds"],
     },
     {
         question: "Arrays in Javascript can be used to store __",
         answers: ["Blah", "String Cheese", "Yogurt", "Strings"],
         correct: ["Strings"],
-        incorrect: ["Blah", "String Cheese", "Yogurt",]
+        incorrect: ["Blah", "String Cheese", "Yogurt"],
 
-        answers: ["Decimals", "Food", "Computer Sounds", "All the above"],
-        correct: "All the above",
-        incorrect: ["Decimals", "Food", "Computer Sounds",]
     },
     {
         question: "Arrays in Javascript can be used to store __",
         answers: ["Functions", "If/Then Statements", "Booleans", "Strings"],
         correct: "Strings",
-        incorrect: ["Functions", "If/Then Statements", "Booleans",]
+        incorrect: ["Functions", "If/Then Statements", "Booleans"],
     },
 
     {
         question: "The conditions in an if/then statement is enclosed within __",
-
-        answers: ["cake", "shrimp", "food poisoning", "curly brackets"],
-        correct: ["curly brackets"],
-        incorrect: ["cake", "shrimp", "food poisoning",]
-
         answers: ["Square Brackets", "Parenthesis", "Quotation Marks", "curly brackets"],
         correct: "curly brackets",
-        incorrect: ["Square Brackets", "Parenthesis", "Quotation Marks",]
+        incorrect: ["Square Brackets", "Parenthesis", "Quotation Marks"],
     },
     {
         question: "What does the .pop method do to an array?",
         answers: ["Adds a new value", "Removes a value", "Creates a new array", "Duplicates the array"],
         correct: "Removes a value",
-        incorrect: ["Adds a new value", "Creates a new array", "Duplicates the array"]
+        incorrect: ["Adds a new value", "Creates a new array", "Duplicates the array"],
     },
     {
         question: "What does Hyper Text Markup Language abbreviate to?",
         answers: ["CSS", "SQL", "HTML", "JavaScript"],
         correct: "HTML",
-        incorrect: ["CSS", "SQL", "JavaScript"]
+        incorrect: ["CSS", "SQL", "JavaScript"],
     },
     {
         question: "What Jquery code gets all elements with the fish ID?",
