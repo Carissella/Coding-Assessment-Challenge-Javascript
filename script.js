@@ -5,6 +5,9 @@ let answer2 = document.querySelector("#answer2");
 let answer3 = document.querySelector("#answer3");
 let answer4 = document.querySelector("#answer4");
 let scoreBoard = document.getElementById("list");
+
+// let startButton = document.createElement("button");
+
 let submitButton = document.querySelector("#submitScore");
 let answerbutton = document.querySelectorAll(".ans");
 let timerEl = document.getElementById("timer")
@@ -24,6 +27,17 @@ timerEl.textContent = secondsLeft
 let questionsSet = [
     {
         question: "Commonly used data do NOT include:",
+
+        answers: ["Blah", "Cheese", "Computer Sounds", "All the above"],
+        correct: ["All the above"], 
+        incorrect: ["Blah", "Cheese", "Computer Sounds",]
+    },
+    {
+        question: "Arrays in Javascript can be used to store __",
+        answers: ["Blah", "String Cheese", "Yogurt", "Strings"],
+        correct: ["Strings"],
+        incorrect: ["Blah", "String Cheese", "Yogurt",]
+
         answers: ["Decimals", "Food", "Computer Sounds", "All the above"],
         correct: "All the above",
         incorrect: ["Decimals", "Food", "Computer Sounds",]
@@ -37,6 +51,11 @@ let questionsSet = [
 
     {
         question: "The conditions in an if/then statement is enclosed within __",
+
+        answers: ["cake", "shrimp", "food poisoning", "curly brackets"],
+        correct: ["curly brackets"],
+        incorrect: ["cake", "shrimp", "food poisoning",]
+
         answers: ["Square Brackets", "Parenthesis", "Quotation Marks", "curly brackets"],
         correct: "curly brackets",
         incorrect: ["Square Brackets", "Parenthesis", "Quotation Marks",]
@@ -58,6 +77,7 @@ let questionsSet = [
         answers: ["$getAll(#fish)", "$getElementsByClassName(.fish)", "document.createElement(fish)", "document.getElementById(#fish)"],
         correct: "$getElementsByClassName(.fish)",
         incorrect: ["$getAll(#fish)",  "document.createElement(fish)", "document.getElementById(#fish)"]
+
     }
 
 ];
@@ -65,9 +85,15 @@ let questionsSet = [
 let timer = setInterval(function () {
     secondsLeft--
     timerEl.textContent = secondsLeft
-}
-    , 1000)
+}, 1000);
 
+// function startButton(event) {
+//     let startButton = document.createElement(button);
+//     startButton.innerHTML:"Start Button";
+//     if (startButton.addEventListener("click")) {
+//         newQuestion();
+//     }
+// };
 
 let index = 0;
 
