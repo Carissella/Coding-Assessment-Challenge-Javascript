@@ -16,7 +16,7 @@ Used Github to create git clone of repository to connect repository to my local 
 
 ## Usage
 
-This coding quiz is meant to be used to measure a user's knowledge of coding topics and definitions within a sixty second time frame. 
+This coding quiz is meant to be used to measure a user's knowledge of coding topics and definitions within a seventy second time frame. 
 
 ## Contributing
 
